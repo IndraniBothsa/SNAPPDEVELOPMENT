@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Log incident" max_length="40" name="x_367914_it_log_incident" sizeclass="1" type="collection">
+        <element label="request date time" max_length="40" name="request_date_time" type="glide_date_time"/>
+        <element label="return date" max_length="40" name="return_date" type="glide_date_time"/>
+    </element>
+</database>
