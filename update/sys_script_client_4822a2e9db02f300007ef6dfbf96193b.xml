@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_reference_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>GlideAjaxCS</name>
+        <order/>
+        <script><![CDATA[function onChange(control,oldvalue,newvalue,isLoading,isTemplate) {
+	if(isLoading||newValue === ''){
+		return;
+	}
+	 var fuser =g_form.getValue("u_reference_1");
+  var ga = new GlideAjax('HelloWorld');
+ga.addParam('sysparm_name', 'helloWorld');
+ga.addParam('sysparm_user', fuser);
+ga.getXML(HelloWorldParse);
+ 
+function HelloWorldParse(response) {
+  var answer = response.responseXML.documentElement.getAttribute("answer");
+  alert(answer); }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-15 05:03:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4822a2e9db02f300007ef6dfbf96193b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>GlideAjaxCS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT" source="x_367914_it">ec1c18c9db0a7300007ef6dfbf96197b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT">ec1c18c9db0a7300007ef6dfbf96197b</sys_scope>
+        <sys_update_name>sys_script_client_4822a2e9db02f300007ef6dfbf96193b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-15 05:52:08</sys_updated_on>
+        <table>x_367914_it_indu</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
