@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scheduled_import_set">
+    <scheduled_import_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <data_source display_value="Indian Team">6a1b0d92db0a3700007ef6dfbf961904</data_source>
+        <map/>
+        <name>Daily user load</name>
+        <order/>
+        <parent/>
+        <post_script/>
+        <post_script_bool>false</post_script_bool>
+        <pre_script/>
+        <pre_script_bool>false</pre_script_bool>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-06-17 09:19:41</run_start>
+        <run_time>1970-01-01 08:02:00</run_time>
+        <run_type>daily</run_type>
+        <sys_class_name>scheduled_import_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-17 09:21:04</sys_created_on>
+        <sys_id>c027f91edb4a3700007ef6dfbf961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Daily user load</sys_name>
+        <sys_package display_value="IT" source="x_367914_it">ec1c18c9db0a7300007ef6dfbf96197b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT">ec1c18c9db0a7300007ef6dfbf96197b</sys_scope>
+        <sys_update_name>scheduled_import_set_c027f91edb4a3700007ef6dfbf961987</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 09:21:04</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </scheduled_import_set>
+</record_update>

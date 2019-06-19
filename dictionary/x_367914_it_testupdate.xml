@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="task" label="TestUpdate" max_length="40" name="x_367914_it_testupdate" sizeclass="1" type="collection"/>
+</database>

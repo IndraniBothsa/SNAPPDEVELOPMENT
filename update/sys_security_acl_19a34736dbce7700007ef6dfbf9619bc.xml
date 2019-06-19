@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition table="x_367914_it_acltestings2">short_descriptionSTARTSWITHDELETE^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="false" value="DELETE"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Default access control on x_367914_it_acltestings2</description>
+        <name>x_367914_it_acltestings2</name>
+        <operation display_value="delete">delete</operation>
+        <script><![CDATA[var currentuser = gs.getUser();
+answer = currentuser.isMemberOf('Hardware');]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 04:10:58</sys_created_on>
+        <sys_id>19a34736dbce7700007ef6dfbf9619bc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_367914_it_acltestings2</sys_name>
+        <sys_package display_value="IT" source="x_367914_it">ec1c18c9db0a7300007ef6dfbf96197b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT">ec1c18c9db0a7300007ef6dfbf96197b</sys_scope>
+        <sys_update_name>sys_security_acl_19a34736dbce7700007ef6dfbf9619bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-19 04:27:38</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
