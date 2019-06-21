@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>flow</description>
+        <internal_name>flow_designer</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"7c3fa3bf-be44-4060-9d34-f342cd870aba.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"7c3fa3bf-be44-4060-9d34-f342cd870aba.Table","label":"1➛Request Table","reference":"sc_request","reference_display":"Request Table","type":"table_name","base_type":"table_name"},{"name":"7c3fa3bf-be44-4060-9d34-f342cd870aba.Records","label":"1➛Request Records","reference":"sc_request","reference_display":"Request Records","type":"records","base_type":"records"},{"name":"34a1e569-caff-4999-836d-261294a54135.item","label":"2➛Request Record","reference":"sc_request","reference_display":"Request Record","type":"reference","base_type":"reference"},{"name":"cd5570d9-1c8d-4a10-baaf-4d9643639a51.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"cd5570d9-1c8d-4a10-baaf-4d9643639a51.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Flow Designer</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-21 05:35:59</sys_created_on>
+        <sys_id>124a292bdbc6f700007ef6dfbf96197d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Flow Designer</sys_name>
+        <sys_package display_value="IT" source="x_367914_it">ec1c18c9db0a7300007ef6dfbf96197b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT">ec1c18c9db0a7300007ef6dfbf96197b</sys_scope>
+        <sys_update_name>sys_hub_flow_124a292bdbc6f700007ef6dfbf96197d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-21 06:23:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=124a292bdbc6f700007ef6dfbf96197d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=124a292bdbc6f700007ef6dfbf96197d"/>
+</record_update>
