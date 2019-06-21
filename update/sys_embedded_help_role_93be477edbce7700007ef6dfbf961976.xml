@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_367914_it.webservicetest_user" name="x_367914_it.webservicetest_user">9bbe0f7adbce7700007ef6dfbf96198f</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 04:59:26</sys_created_on>
+        <sys_id>93be477edbce7700007ef6dfbf961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9bbe0f7adbce7700007ef6dfbf96198f</sys_name>
+        <sys_package display_value="IT" source="x_367914_it">ec1c18c9db0a7300007ef6dfbf96197b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT">ec1c18c9db0a7300007ef6dfbf96197b</sys_scope>
+        <sys_update_name>sys_embedded_help_role_93be477edbce7700007ef6dfbf961976</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-19 04:59:26</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
